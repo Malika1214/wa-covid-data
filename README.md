@@ -17,6 +17,8 @@ An interactive web mapping application visualizing global seismic activity and w
 
 - **Main Application**: https://malika1214.github.io/global-earthquake-map/
 - **Earthquake Example**: https://malika1214.github.io/global-earthquake-map/earthquake.html
+- **The population density example**: https://malika1214.github.io/wa-covid-data/pop_density.html
+- 
 
 ## Data Sources
 
