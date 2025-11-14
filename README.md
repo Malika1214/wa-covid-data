@@ -34,22 +34,6 @@ http://Malika1214.github.io/wa-covid-data/pop_density.html
 
 ---
 
-## 📁 Repository Structure
-
-wa-covid-data/
-├── index.html
-├── pop_density.html
-├── assets/
-│ ├── wa-covid-data-102521.geojson
-│ ├── stateData.geojson
-└── style.css
-└── script.js
-└── README.md
-
-
-
----
-
 ## 🧰 Technologies Used
 
 - Leaflet.js  
