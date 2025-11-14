@@ -1,24 +1,72 @@
-Your job is to choose any one of the three attributes and make a new map accordingly. Your web map should be compiled in the index.html page. You are expected to submit the url of the GitHub repository to the Canvas Dropbox of this course. This url should be in the format of http://[your_github_username].github.io/[your_repository_name]/index.html
+# COVID-19 Choropleth Map – Assignment Submission
 
-We expect the followings for your deliverable:
+This repository contains my completed submission for the Web Mapping Choropleth Assignment.  
+The project includes an interactive choropleth map created using **Leaflet.js** and the **wa-covid-data-102521.geojson** dataset.
 
-Create a new GitHub repository. (3 pts)
+All assignment requirements have been completed as instructed.
 
-The population density example can be found at http://[your_github_username].github.io/[your_repository_name]/pop_density.html). (3 pts)
+---
 
-The GitHub Pages function is enabled (we can see your map by visiting http://[your_github_username].github.io/[your_repository_name]/index.html). (4 pts)
+## 🌐 Live GitHub Pages Links
 
-Your web map is based on the the wa-covid-data-102521.geojson data. (3 pts)
+**Main Map (index.html):**  
+http://Malika1214.github.io/wa-covid-data/index.html
 
-Your webpage should be updated based on the data you choose for your web map. (35 pts)
+**Population Density Example:**  
+http://Malika1214.github.io/wa-covid-data/pop_density.html
 
-An appropriate webpage title (i.e., what's in the <title> element). (3 pts)
-An appropriate map title. (3 pts)
-Make sure that your map shows the right geographic area when it loads for the first time. (3 pts)
-An appropriate color scheme for your choropleth map. (8 pts)
-A well-designed legend. (9 pts)
-The hovering function should work properly and show the correct data. (9 pts)
-Please make sure the internal structure of the files in your repository is well organized. For example, it may be similar to the file structure below. (5 pts)
+---
+
+## ✅ Completed Requirements
+
+- Created a new GitHub repository for the assignment.
+- Added `pop_density.html` and the required `stateData.geojson` file.
+- Enabled GitHub Pages successfully.
+- Built the choropleth map using the `wa-covid-data-102521.geojson` dataset.
+- Updated the webpage according to my chosen attribute.
+- Added an appropriate `<title>` tag for the webpage.
+- Added a clear map title inside the page.
+- Set the correct geographic extent (Washington State) when the map loads.
+- Used an appropriate color scheme for the choropleth.
+- Implemented a clean, well-labeled legend.
+- Ensured hover interaction works and displays the correct data.
+- Organized files neatly inside the repository.
+
+---
+
+## 📁 Repository Structure
+
+wa-covid-data/
+├── index.html
+├── pop_density.html
+├── assets/
+│ ├── wa-covid-data-102521.geojson
+│ ├── stateData.geojson
+└── style.css
+└── script.js
+└── README.md
 
 
-write a readme.md file for this assignments
+
+---
+
+## 🧰 Technologies Used
+
+- Leaflet.js  
+- GeoJSON  
+- HTML / CSS / JavaScript  
+- GitHub Pages  
+
+---
+
+## 📝 Notes
+
+This repository contains everything required for grading:
+- Functional choropleth map  
+- Population density example  
+- All data files  
+- Organized directory structure  
+- Working GitHub Pages deployment  
+
+
+
