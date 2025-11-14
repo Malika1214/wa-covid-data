@@ -1,53 +1,24 @@
+Your job is to choose any one of the three attributes and make a new map accordingly. Your web map should be compiled in the index.html page. You are expected to submit the url of the GitHub repository to the Canvas Dropbox of this course. This url should be in the format of http://[your_github_username].github.io/[your_repository_name]/index.html
 
-# Global Earthquake Map
+We expect the followings for your deliverable:
 
-An interactive web mapping application visualizing global seismic activity and world cities using GeoJSON data and Mapbox GL JS. 
+Create a new GitHub repository. (3 pts)
 
-## Features
+The population density example can be found at http://[your_github_username].github.io/[your_repository_name]/pop_density.html). (3 pts)
 
-- **Interactive Map Visualization**: View earthquakes and city data on responsive maps
-- **Dual View System**: 
-  - `earthquake.html`: Earthquake data for Japan region
-  - `index.html`: Major world cities and countries
-- **Data Filtering**: Sortable tables for both datasets
-- **Responsive Design**: Mobile-friendly with adaptive layouts
-- **Asynchronous Data Loading**: Efficient GeoJSON data fetching
+The GitHub Pages function is enabled (we can see your map by visiting http://[your_github_username].github.io/[your_repository_name]/index.html). (4 pts)
 
-## Live Demo
+Your web map is based on the the wa-covid-data-102521.geojson data. (3 pts)
 
-- **Main Application**: https://malika1214.github.io/global-earthquake-map/
-- **Earthquake Example**: https://malika1214.github.io/global-earthquake-map/earthquake.html
-- **The population density example**: https://malika1214.github.io/wa-covid-data/pop_density.html
-- 
+Your webpage should be updated based on the data you choose for your web map. (35 pts)
 
-## Data Sources
+An appropriate webpage title (i.e., what's in the <title> element). (3 pts)
+An appropriate map title. (3 pts)
+Make sure that your map shows the right geographic area when it loads for the first time. (3 pts)
+An appropriate color scheme for your choropleth map. (8 pts)
+A well-designed legend. (9 pts)
+The hovering function should work properly and show the correct data. (9 pts)
+Please make sure the internal structure of the files in your repository is well organized. For example, it may be similar to the file structure below. (5 pts)
 
-- Earthquake data from USGS
-- Japan administrative boundaries
-- Major world cities population data
-- Country boundary approximations
 
-## Technologies
-
-- HTML5, CSS3, JavaScript (ES6+)
-- Mapbox GL JS v2.5.0
-- GeoJSON format
-- Async/Await pattern
-
-## Project Structure
-```
-global-earthquake-map/
-├── index.html (main deliverable)
-├── earthquake.html (practice example)
-├── README.md
-└── assets/
-    ├── earthquakes.geojson
-    ├── japan.json
-    ├── world-cities.geojson
-    └── major-countries.geojson
-```
-
-## Author
-
-Malika Ali - University of Washington  
-GEOG 328 - Web GIS (Fall 2025)
+write a readme.md file for this assignments
